@@ -1,0 +1,8 @@
+C:\KHUSHWANT\FIS-Assignments\Assignment2\Assignment2\bin\Debug\Assignment2.exe.config
+C:\KHUSHWANT\FIS-Assignments\Assignment2\Assignment2\bin\Debug\Assignment2.exe
+C:\KHUSHWANT\FIS-Assignments\Assignment2\Assignment2\bin\Debug\Assignment2.pdb
+C:\KHUSHWANT\FIS-Assignments\Assignment2\Assignment2\obj\Debug\Assignment2.csproj.AssemblyReference.cache
+C:\KHUSHWANT\FIS-Assignments\Assignment2\Assignment2\obj\Debug\Assignment2.csproj.SuggestedBindingRedirects.cache
+C:\KHUSHWANT\FIS-Assignments\Assignment2\Assignment2\obj\Debug\Assignment2.csproj.CoreCompileInputs.cache
+C:\KHUSHWANT\FIS-Assignments\Assignment2\Assignment2\obj\Debug\Assignment2.exe
+C:\KHUSHWANT\FIS-Assignments\Assignment2\Assignment2\obj\Debug\Assignment2.pdb
