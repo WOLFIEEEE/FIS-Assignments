@@ -13,7 +13,7 @@ namespace WebApp_Day1_1
         {
             if (!Page.IsPostBack)
             {
-                string[] str = new string[] { "Select", "Dell", "HP", "MacBook", "Lenova", "Aspire" };
+                string[] str = new string[] { "Select", "Naruto", "Deathnote", "OnePiece", "Bleach", "AOT" };
                 for (int i = 0; i < str.Length; i++)
                 {
                     DropDownList1.Items.Add(str[i]);
@@ -25,13 +25,25 @@ namespace WebApp_Day1_1
         protected void Button1_Click(object sender, EventArgs e)
         {
             Label1.Text = DropDownList1.SelectedIndex.ToString();
-            if (DropDownList1.Text == "Dell")
+            if (DropDownList1.Text == "Naruto")
             {
-                Label1.Text = "Rs 54000";
+                Label1.Text = "Comedy , Action";
             }
-            else if (DropDownList1.Text == "HP")
+            else if (DropDownList1.Text == "Deathnote")
             {
-                Label1.Text = "Rs 56000";
+                Label1.Text = "Suspence , Thriller";
+            }
+            else if (DropDownList1.Text == "OnePiece")
+            {
+                Label1.Text = "Comedy , adventure";
+            }
+            else if (DropDownList1.Text == "Bleach")
+            {
+                Label1.Text = "Action , Adventure";
+            }
+            else if (DropDownList1.Text == "AOT")
+            {
+                Label1.Text = "Dark , Action";
             }
             else
                 Label1.Text = "";
@@ -40,7 +52,7 @@ namespace WebApp_Day1_1
         protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
         {
             string str = DropDownList1.Text;
-            Image1.ImageUrl = "~/Images/" + str + ".jpg";
+            Image1.ImageUrl = "~/Images/" + str + ".png";
         }
     }
 }
