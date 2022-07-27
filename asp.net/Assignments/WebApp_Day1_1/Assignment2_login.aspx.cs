@@ -16,8 +16,8 @@ namespace WebApp_Day1_1
 
         protected void Btn_Click(object sender, EventArgs e)
         {
-            Response.Cookies["d1"].Value = Txtuname.Text;
-            Response.Cookies["d2"].Value = Txtpswd.Text;
+            Session["d1"] = Txtuname.Text;
+            Session["d2"] = Txtpswd.Text;
         }
     }
 }

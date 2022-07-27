@@ -15,8 +15,9 @@ namespace WebApp_Day1_1
             {
                 //lblname.Text = "Welcome " + Request.Cookies["d1"].Value.ToString() + " to our Program";
 
-                TextBox tname = (TextBox)PreviousPage.FindControl("Txtuname");
-                lblname.Text = "Welcome " + tname.Text + "To our Program";
+                //TextBox tname = (TextBox)PreviousPage.FindControl("Txtuname");
+
+                lblname.Text = "Welcome " + Session["d1"] + "To our Program";
             }
             else
             {
@@ -28,7 +29,7 @@ namespace WebApp_Day1_1
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Session.Abandon();
+            Session.Clear();
             Response.Redirect("Assignment2_login.aspx");
         }
     }
