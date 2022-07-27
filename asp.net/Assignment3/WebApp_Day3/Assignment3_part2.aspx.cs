@@ -11,7 +11,7 @@ namespace WebApp_Day3
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            Label1.Text = Application["TotalOnlineUsers"].ToString();
         }
     }
 }

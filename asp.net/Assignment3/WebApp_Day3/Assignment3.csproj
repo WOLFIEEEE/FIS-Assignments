@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Assignment3_part1.aspx" />
     <Content Include="Assignment3_part2.aspx" />
+    <Content Include="Global.asax" />
     <Content Include="Valid.html" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -86,6 +87,9 @@
     </Compile>
     <Compile Include="Assignment3_part2.aspx.designer.cs">
       <DependentUpon>Assignment3_part2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
