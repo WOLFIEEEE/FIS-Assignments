@@ -25,5 +25,5 @@
 
 1. login page (.aspx file location) :-  [Click here](https://github.com/WOLFIEEEE/FIS-Assignments/blob/main/asp.net/Assignments/WebApp_Day1_1/Assignment2_login.aspx)
 2. login page (.aspx.cs file location) :-  [Click here](https://github.com/WOLFIEEEE/FIS-Assignments/blob/main/asp.net/Assignments/WebApp_Day1_1/Assignment2_login.aspx.cs)
-3. home page (.aspx file location) :-  [Click here](https://github.com/WOLFIEEEE/FIS-Assignments/blob/main/asp.net/Assignments/WebApp_Day1_1/Assignment2_home.aspx.cs)
+3. home page (.aspx file location) :-  [Click here](https://github.com/WOLFIEEEE/FIS-Assignments/blob/main/asp.net/Assignments/WebApp_Day1_1/Assignment2_home.aspx)
 4. home page (.aspx.cs file location) :-  [Click here](https://github.com/WOLFIEEEE/FIS-Assignments/blob/main/asp.net/Assignments/WebApp_Day1_1/Assignment2_home.aspx.cs)
