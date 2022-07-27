@@ -27,139 +27,87 @@ namespace Assignment3
 
     class Employee
     {
-        private int empid;
-        private string name;
-        private string address;
-        private string city;
-        private string Dep;
-        private int salary;
-
-        //set statements 
-        public void SetEmpid(int i)
-        {
-            empid = i;
-        }
-        public void SetName(string s)
-        {
-            name = s;
-        }
-        public void SetAddress(string s)
-        {
-            address = s;
-        }
-        public void Setcity(string s)
-        {
-            city = s;
-        }
-        public void SetDep(string s)
-        {
-            Dep = s;
-        }
-        public void Setsal(int a)
-        {
-            salary = a;
-        }
-
-        //get statements 
-        public int GetEmpid()
-        {
-            return empid;
-        }
-        public string GetName()
-        {
-            return name;
-        }
-
-        public string GetAdress()
-        {
-            return address;
-        }
-
-        public string GetCity()
-        {
-            return city;
-        }
-
-        public string GetDep()
-        {
-            return Dep;
-        }
-
-        public int GetSal()
-        {
-            return salary;
-        }
+        public int empid { get; set; }
+        public string name { get; set; }
+        public string address { get; set; }
+        public string city { get; set; }
+        public string Dep { get; set; }
+        public int salary { get; set; }
 
         public virtual void getsalary()
         {
-            Console.WriteLine("Actual salary of the EMployee will be" + GetSal());
+            Console.WriteLine("Actual salary of the EMployee will be" + this.salary);
         }
     }
 
     class PermanentEmployee : Employee
     {
-        private int pfund;
+        private int pfund { get; set; }
 
-        public void SetPfud(int i)
+        public PermanentEmployee(int a, string b, string c, string d, string e, int f, int g)
         {
-            pfund = i;
-        }
-        public int getpfund()
-        {
-            return pfund;
+            this.empid = a;
+            this.name = b;
+            this.address = c;
+            this.city = d;
+            this.Dep = e;
+            this.salary = f;
+            this.pfund = g;
         }
         public override void getsalary()
         {
-            Console.WriteLine("New salary for the EMployee will be" + (GetSal() - getpfund()));
+            Console.WriteLine("New salary for the EMployee will be" + (salary - pfund));
         }
     }
 
     class ContractEmployee : Employee
     {
-        private int perks;
+        private int perks { get; set; }
 
-        public void SetPerks(int i)
-        {
-            perks = i;
-        }
-        public int GetPerks()
-        {
-            return perks;
-        }
 
+        public ContractEmployee(int a, string b, string c, string d, string e, int f, int g)
+        {
+            this.empid = a;
+            this.name = b;
+            this.address = c;
+            this.city = d;
+            this.Dep = e;
+            this.salary = f;
+            this.perks = g;
+        }
         public override void getsalary()
         {
-            Console.WriteLine("New salary of the Employee will be " + (GetSal() + GetPerks()));
+            Console.WriteLine("New salary of the Employee will be " + (salary + perks));
         }
     }
     internal class Program
     {
 
-        public static ContractEmployee setcontract(int a, string b, string c, string d, string e, int f, int g)
-        {
-            ContractEmployee emp = new ContractEmployee();
-            emp.SetEmpid(a);
-            emp.SetName(b);
-            emp.SetAddress(c);
-            emp.Setcity(d);
-            emp.SetDep(e);
-            emp.Setsal(f);
-            emp.SetPerks(g);
-            return emp;
-        }
+        //public static ContractEmployee setcontract(int a, string b, string c, string d, string e, int f, int g)
+        //{
+        //    ContractEmployee emp = new ContractEmployee();
+        //    emp.SetEmpid(a);
+        //    emp.SetName(b);
+        //    emp.SetAddress(c);
+        //    emp.Setcity(d);
+        //    emp.SetDep(e);
+        //    emp.Setsal(f);
+        //    emp.SetPerks(g);
+        //    return emp;
+        //}
 
-        public static PermanentEmployee setpermanent(int a, string b, string c, string d, string e, int f, int g)
-        {
-            PermanentEmployee emp = new PermanentEmployee();
-            emp.SetEmpid(a);
-            emp.SetName(b);
-            emp.SetAddress(c);
-            emp.Setcity(d);
-            emp.SetDep(e);
-            emp.Setsal(f);
-            emp.SetPfud(g);
-            return emp;
-        }
+        //public static PermanentEmployee setpermanent(int a, string b, string c, string d, string e, int f, int g)
+        //{
+        //    PermanentEmployee emp = new PermanentEmployee();
+        //    emp.SetEmpid(a);
+        //    emp.SetName(b);
+        //    emp.SetAddress(c);
+        //    emp.Setcity(d);
+        //    emp.SetDep(e);
+        //    emp.Setsal(f);
+        //    emp.SetPfud(g);
+        //    return emp;
+        //}
         static void Main(string[] args)
         {
             Console.WriteLine("Enter Details of You Employee");
@@ -187,14 +135,14 @@ namespace Assignment3
             {
                 Console.WriteLine("Enter the Perks Earned By Employee");
                 int perks = Convert.ToInt32(Console.ReadLine());
-                ContractEmployee obj = setcontract(emp_id, name, address, city, dept, salary, perks);
+                ContractEmployee obj = new ContractEmployee(emp_id, name, address, city, dept, salary, perks);
                 obj.getsalary();
             }
             else if (a == 2)
             {
                 Console.WriteLine("Enter the Pfund of the EMployee");
                 int pfunds = Convert.ToInt32(Console.ReadLine());
-                PermanentEmployee obj = setpermanent(emp_id, name, address, city, dept, salary, pfunds);
+                PermanentEmployee obj = new PermanentEmployee(emp_id, name, address, city, dept, salary, pfunds);
                 obj.getsalary();
             }
 
