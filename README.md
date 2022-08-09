@@ -2,6 +2,11 @@
 ## Assigment Location 
 
 
+### sql Assignments
+
+#### Assignment 1
+
+1. Assigtment1 sql file location :-  [Click here](https://github.com/WOLFIEEEE/FIS-Assignments/blob/main/SQL/Assignment1.sql)
 ### dotnet Assignments
 
 #### Assignment 1
