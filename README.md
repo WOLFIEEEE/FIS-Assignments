@@ -36,5 +36,7 @@
 
 1. Part_1 (.aspx file location) :-  [Click here](https://github.com/WOLFIEEEE/FIS-Assignments/blob/main/asp.net/Assignment3/WebApp_Day3/Assignment3_part1.aspx)
 2. Part_1 (.aspx.cs file location) :-  [Click here](https://github.com/WOLFIEEEE/FIS-Assignments/blob/main/asp.net/Assignment3/WebApp_Day3/Assignment3_part1.aspx.cs)
-3. Part_2 (.aspx file location) :- [Click here]()
-4. Part_2 (.aspx.cs file location) :- [Click here]()
+3. Part_2 (.aspx file location) :- [Click here](https://github.com/WOLFIEEEE/FIS-Assignments/blob/main/asp.net/Assignment3/WebApp_Day3/Assignment3_part2.aspx.cs)
+4. Part_2 (.aspx.cs file location) :- [Click here](https://github.com/WOLFIEEEE/FIS-Assignments/blob/main/asp.net/Assignment3/WebApp_Day3/Assignment3_part2.aspx.cs)
+5. Part_2 (global.aspx.cs file location) :- [Click here](https://github.com/WOLFIEEEE/FIS-Assignments/blob/main/asp.net/Assignment3/WebApp_Day3/Global.asax.cs)
+6. Part_2 (web.config file location) :- [Click here](https://github.com/WOLFIEEEE/FIS-Assignments/blob/main/asp.net/Assignment3/WebApp_Day3/Web.config)
