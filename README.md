@@ -4,11 +4,15 @@
 
 ### sql Assignments
 
-#### Assignment 1
+#### Assignments
 
-1. Assigtment1 sql file location :-  [Click here](https://github.com/WOLFIEEEE/FIS-Assignments/blob/main/SQL/Assignment1.sql)
+1. **Assigtment1** sql file location :-  [Click here](https://github.com/WOLFIEEEE/FIS-Assignments/blob/main/SQL/Assignment1.sql)
 
-2. Assigtment2 sql file location :-  [Click here](https://github.com/WOLFIEEEE/FIS-Assignments/blob/main/SQL/Assignment2.sql)
+2. **Assigtment2** sql file location :-  [Click here](https://github.com/WOLFIEEEE/FIS-Assignments/blob/main/SQL/Assignment2.sql)
+
+3. **SQL Scenario Based Assessment** location :-  [Click here](https://github.com/WOLFIEEEE/FIS-Assignments/blob/main/SQL/SQL%20Scenario%20Based%20Assessment/Assignment4.sql)
+
+4. **SQL special Assignment** location :-  [Click here](https://github.com/WOLFIEEEE/FIS-Assignments/blob/main/SQL/SQL%20Special%20Assignment/Assignment3.sql)
 
 ### dotnet Assignments
 
