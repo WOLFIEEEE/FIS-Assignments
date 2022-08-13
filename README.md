@@ -1,7 +1,6 @@
 # FIS-Assignments - Khushwant Parihar
 ## Assigment Location 
 
-
 ### sql Assignments
 
 #### Assignments
