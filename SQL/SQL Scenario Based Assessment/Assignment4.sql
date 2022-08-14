@@ -202,7 +202,7 @@ Group by C_name , B.RegisterNo , start_date
 having start_date between '2018-01-02' AND '2018-02-28'
 
 
---Question 9 
+--Question 9 Display the Firstname and LastName of the customer who have placed exactly 2 orders
 
 --Table code 
 
@@ -242,11 +242,12 @@ group by A.customer_id , first_name
 having COUNT(A.customer_id) = 2
 
 
---Question 10
+--Question 10 Display all the student name in reverse order and Capitalize all the character in location
+
 
 select  REVERSE(name) as studentsname , UPPER(location) as location from StudentDetails;
 
---Question 11
+--Question 11 Create a view table to display the ProductName,ordered Quantity and OrderNumber from the above relations
 
 Create table order2(
 id int primary key,
@@ -283,7 +284,8 @@ INNER JOIN Product C
 on C.id = B.productid
 
 
---Question 12
+--Question 12  Display the Course Name registered by student  Nisha
+
 
 Select name , C_name from courseregistration
 Inner join StudentDetails
