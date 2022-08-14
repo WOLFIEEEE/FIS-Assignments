@@ -11,7 +11,8 @@
 
 3. **SQL Scenario Based Assessment** location :-  [Click here](https://github.com/WOLFIEEEE/FIS-Assignments/blob/main/SQL/SQL%20Scenario%20Based%20Assessment/Assignment4.sql)
 
-4. **SQL special Assignment** location :-  [Click here](https://github.com/WOLFIEEEE/FIS-Assignments/blob/main/SQL/SQL%20Special%20Assignment/Assignment3.sql)
+4. **SQL special Assignment** location :-  [Click here](https://github.com/WOLFIEEEE/FIS-Assignments/blob/main/SQL/SQL%20Special%20Assignment/Assignment3.sql) ||
+   **Assignment Database Structure** :- [Click here](https://github.com/WOLFIEEEE/FIS-Assignments/blob/main/SQL/SQL%20Special%20Assignment/assets/databases.png)
 
 ### dotnet Assignments
 
